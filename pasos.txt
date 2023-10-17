@@ -1,0 +1,23 @@
+1 Paso uno definicion de tablas de base de datos.
+
+En la base de datos postgres, crear un esquema con el nombre de fichadas.
+
+En el esquema de fichadas crear la tabla empleado,ciudad,sucursal.
+
+empleado tendra como atributos:
+    id
+    nombre 
+    apellido
+    documento
+    id_ciudad           ->   tabla ciudad
+    id_sucursal         ->   tabla sucursal
+    fecha_nacimiento
+    sueldo
+
+ciudad tendra como atributos:
+    id 
+    nombre
+    
+
+
+
