@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/activeweb-orm-fichadas">
+    
+    <!--    Pool para la base de datos -->
+    <ResourceLink global="jdbc/activeweborm" name="jdbc/db_pool" type="javax.sql.DataSource"/>
+
+</Context>
