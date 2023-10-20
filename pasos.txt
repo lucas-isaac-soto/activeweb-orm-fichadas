@@ -65,8 +65,49 @@ ahora una vez creada la base de datos procedemos a cargarle algunos datos de pru
 
 2 paso crear el proyecto base de active-web
 3 conectar proyecto con base de datos
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 4 generar los roles y usuarios necesarios
+
+3 roles.
+
+rol recurso humano.
+    agregar mas empleados
+    eliminar empleado (eliminacion logica fecha_baja)
+    ver listado de empleados (sin sus movimientos)
+    modificar los datos de empleados.
+    asignar empleado como gerente de sucursal.
+         
+rol empleados
+    ver listado de empleados
+    agregar movimiento nuevo de empleado
+    ver listado de movimiento de empleados
+
+
+rol gerente
+    ver listado de empleados
+    cambiar de sucursal a un empleado (mientras el empleado no sea un gerente)
+    ver listado de movimientos de un empleado
+    modificar un movimiento de un empleado
+    eliminar un movimiento de un empleado
+    agregar sucursal
+    ver listado de sucursales
+
+
+se implementara inicialmente el de recursos humanos y empleados.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ver archivo usuarios-roles-tomcat.txt parte de este ira al archivo tomcatuser.xml
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
 5 generar controladores y modelos
+
+
+
+
 6 conectar comedo lo orm
 
 

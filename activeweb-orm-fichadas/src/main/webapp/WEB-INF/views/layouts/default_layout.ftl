@@ -9,7 +9,6 @@
     
     <body>
 
-        <!--ACA TUVE QUE SACAR EL ?no_esc -->
         <div class="contenido">
             ${page_content}
         </div>

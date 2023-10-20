@@ -32,6 +32,7 @@ create table fichadas.empleado(
     id_ciudad   int NOT NULL,
     id_sucursal int NOT NULL,
     fecha_nacimiento timestamp NOT NULL CHECK (fecha_nacimiento > '1900-01-01'),
+    fecha_baja timestamp,
     sueldo  real NOT NULL CHECK (sueldo > 50000),
 
     CONSTRAINT pk_empleado

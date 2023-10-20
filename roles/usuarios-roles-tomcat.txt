@@ -1,0 +1,10 @@
+<rol rolename="rrhh"/>
+<rol rolename="empleados"/>
+<rol rolename="gerente"/>
+
+<user username="martita" password="123" roles="rrhh"/>
+<user username="pedro"   password="123" roles="empleados"/>
+<user username="pepe"    password="123" roles="gerente"/>
+
+averiguar como podera un recurso asegurarlo pero que pueda ingresar teniendo alguno de estos roles cuando sea compartida la funcionalidad, pero siendo uno u otro la vista cambiara para no mostrar botones especificos, y en caso que intente de alguna forma llegar a la funcionalidad asegurarla con el rol especifico con el que puede funcionar.
+
