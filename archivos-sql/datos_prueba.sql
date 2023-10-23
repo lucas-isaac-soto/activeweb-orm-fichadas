@@ -51,15 +51,7 @@ WHERE id = 13 or id = 14 or id = 15;
 
 
 -- 4 vamos a agregar 1 movimiento de cada uno en cada sucursal
-id  serial,
-    id_empleado int NOT NULL,
-    id_sucursal int NOT NULL,
-    fecha_hora_ingreso timestamp NOT NULL CHECK (fecha_hora_ingreso > '2000-01-01'),
-
-INSERT INTO events (event_time)
-VALUES ('2023-10-19 14:30:00');
-
-insert into fichadas.movimiento (id_empleado,id_sucursal,fecha_hora_ingreso)
+insert into fichadas.movimiento (id_empleado,id_sucursal,fecha_hora_movimiento)
 values
 (1,1,'2001-10-10 08:00:00'), (1,2,'2002-11-10 08:00:00'), (1,3,'2003-12-10 08:00:00'),
 (2,4,'2001-10-10 08:30:00'), (2,5,'2002-11-10 08:30:00'), (2,6,'2003-12-10 08:30:00'),

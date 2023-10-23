@@ -1,4 +1,3 @@
-create database activeweb_orm;
 create schema fichadas;
 
 create table fichadas.ciudad(
@@ -57,7 +56,7 @@ create table fichadas.movimiento(
     id  serial,
     id_empleado int NOT NULL,
     id_sucursal int NOT NULL,
-    fecha_hora_ingreso timestamp NOT NULL CHECK (fecha_hora_ingreso > '2000-01-01'),
+    fecha_hora_movimiento timestamp NOT NULL CHECK (fecha_hora_movimiento > '2000-01-01'),
 
     CONSTRAINT pk_movimiento
 	PRIMARY KEY (id),
