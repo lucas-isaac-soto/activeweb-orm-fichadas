@@ -265,4 +265,18 @@ rol gerente
 
 Bien llegado a este punto tenemos un proyecto web funcionando con la base de datos un orm que conecta modelos hacia la base, framework activeweb funcionando y seguridad de autenticacion y autorizacion con un login y roles con usuarios desde tomcatuser.xml
 
+Ahora compilar tu proyecto, ejecutarlo en tu navegador e ir a la url:
+
+**/probarorm**
+
+Esta muestra el listado de los empleados guardado en la base de datos 
+
+y luego ir a 
+
+**/provarorm/nuevoempleado**
+
+Este crea un empleado nuevo con datos por defecto y lo guarda en la base de datos, luego redirije a la lista de empleado, esta deberia verse actualizada con el empleado nuevo, y asi poder cargar multiples empleados si quieres.
+
+Con esto hecho daria pie a poder realizar el resto de funcionalidades.
+
 
